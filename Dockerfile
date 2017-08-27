@@ -4,7 +4,7 @@ MAINTAINER xcpep, http://github.com/xcpep
 
 RUN apt update && \
     apt upgrade -y && \
-    apt install -y lib32gcc1 lib32stdc++6 unzip curl && \
+    apt install -y lib32gcc1 lib32stdc++6 unzip curl xz-utils && \
     useradd -d /home/container -m container
 
 USER container
