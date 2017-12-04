@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER xcpep, http://github.com/xcpep
+MAINTAINER avery1227, http://github.com/avery1227
 
 RUN apt update && \
     apt upgrade -y && \
