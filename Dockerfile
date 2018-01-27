@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER avery1227, http://github.com/avery1227
+MAINTAINER KevinEduardo, https://github.com/KevinEduardo
 
 RUN apt update && \
     apt upgrade -y && \
